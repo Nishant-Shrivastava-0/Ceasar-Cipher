@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* BG 2 URL  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center;
+    color: #1625d0;
+    margin-bottom: 20px;
+}
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* BG 2 URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+#app-container textarea {
+    height: 150px;
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #495057;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #495057;
+}
+
+#button-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#button-container button {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #34cceb;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+#button-container button:hover {
+    background-color: #1da1f2;
+}
+
+#button-container input {
+    width: 60px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #495057;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #495057;
+}
